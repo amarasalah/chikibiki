@@ -1,0 +1,317 @@
+$flaticon_hotel_2-font: "flaticon_hotel_2";
+
+@font-face {
+    font-family: $flaticon_hotel_2-font;
+    src: url("./flaticon_hotel_2.woff2?a80513f48a4fa0b319b641f41c2ca87e") format("woff2"),
+url("./flaticon_hotel_2.woff?a80513f48a4fa0b319b641f41c2ca87e") format("woff"),
+url("./flaticon_hotel_2.eot?a80513f48a4fa0b319b641f41c2ca87e#iefix") format("embedded-opentype"),
+url("./flaticon_hotel_2.ttf?a80513f48a4fa0b319b641f41c2ca87e") format("truetype"),
+url("./flaticon_hotel_2.svg?a80513f48a4fa0b319b641f41c2ca87e#flaticon_hotel_2") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_hotel_2 !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_hotel_2-map: (
+    "curtains": "\f101",
+    "blinds": "\f102",
+    "curtains-1": "\f103",
+    "curtain": "\f104",
+    "smart-curtain": "\f105",
+    "smart-curtain-1": "\f106",
+    "lock": "\f107",
+    "lockers": "\f108",
+    "locker": "\f109",
+    "changing-room": "\f10a",
+    "cupboard": "\f10b",
+    "safebox": "\f10c",
+    "locker-1": "\f10d",
+    "dressing-room": "\f10e",
+    "wardrobe": "\f10f",
+    "safe-box": "\f110",
+    "closet": "\f111",
+    "lockers-1": "\f112",
+    "school-locker": "\f113",
+    "changing-room-1": "\f114",
+    "basketball-court": "\f115",
+    "basketball": "\f116",
+    "ring": "\f117",
+    "basketball-court-1": "\f118",
+    "basketball-1": "\f119",
+    "basketball-2": "\f11a",
+    "basketball-hoop": "\f11b",
+    "basketball-3": "\f11c",
+    "basketball-court-2": "\f11d",
+    "basketball-court-3": "\f11e",
+    "billiards": "\f11f",
+    "billiards-1": "\f120",
+    "snooker": "\f121",
+    "pool-table": "\f122",
+    "snooker-1": "\f123",
+    "billiards-2": "\f124",
+    "pool-ball": "\f125",
+    "tennis": "\f126",
+    "table-tennis": "\f127",
+    "table": "\f128",
+    "ping-pong": "\f129",
+    "ping-pong-1": "\f12a",
+    "table-tennis-1": "\f12b",
+    "tennis-court": "\f12c",
+    "tennis-1": "\f12d",
+    "tennis-2": "\f12e",
+    "tennis-3": "\f12f",
+    "net": "\f130",
+    "badminton": "\f131",
+    "shuttlecock": "\f132",
+    "badminton-court": "\f133",
+    "badminton-shuttle": "\f134",
+    "poker-cards": "\f135",
+    "poker-card": "\f136",
+    "poker-table": "\f137",
+    "poker-cards-1": "\f138",
+    "card-game": "\f139",
+    "smoking-room": "\f13a",
+    "cigar": "\f13b",
+    "tobacco": "\f13c",
+    "no-smoking": "\f13d",
+    "pet": "\f13e",
+    "animal": "\f13f",
+    "bff": "\f140",
+    "tent": "\f141",
+    "tent-1": "\f142",
+    "circus": "\f143",
+    "tent-2": "\f144",
+    "tent-3": "\f145",
+    "tent-4": "\f146",
+    "tent-5": "\f147",
+    "tent-6": "\f148",
+    "tent-7": "\f149",
+);
+
+.flaticon-curtains:before {
+    content: map-get($flaticon_hotel_2-map, "curtains");
+}
+.flaticon-blinds:before {
+    content: map-get($flaticon_hotel_2-map, "blinds");
+}
+.flaticon-curtains-1:before {
+    content: map-get($flaticon_hotel_2-map, "curtains-1");
+}
+.flaticon-curtain:before {
+    content: map-get($flaticon_hotel_2-map, "curtain");
+}
+.flaticon-smart-curtain:before {
+    content: map-get($flaticon_hotel_2-map, "smart-curtain");
+}
+.flaticon-smart-curtain-1:before {
+    content: map-get($flaticon_hotel_2-map, "smart-curtain-1");
+}
+.flaticon-lock:before {
+    content: map-get($flaticon_hotel_2-map, "lock");
+}
+.flaticon-lockers:before {
+    content: map-get($flaticon_hotel_2-map, "lockers");
+}
+.flaticon-locker:before {
+    content: map-get($flaticon_hotel_2-map, "locker");
+}
+.flaticon-changing-room:before {
+    content: map-get($flaticon_hotel_2-map, "changing-room");
+}
+.flaticon-cupboard:before {
+    content: map-get($flaticon_hotel_2-map, "cupboard");
+}
+.flaticon-safebox:before {
+    content: map-get($flaticon_hotel_2-map, "safebox");
+}
+.flaticon-locker-1:before {
+    content: map-get($flaticon_hotel_2-map, "locker-1");
+}
+.flaticon-dressing-room:before {
+    content: map-get($flaticon_hotel_2-map, "dressing-room");
+}
+.flaticon-wardrobe:before {
+    content: map-get($flaticon_hotel_2-map, "wardrobe");
+}
+.flaticon-safe-box:before {
+    content: map-get($flaticon_hotel_2-map, "safe-box");
+}
+.flaticon-closet:before {
+    content: map-get($flaticon_hotel_2-map, "closet");
+}
+.flaticon-lockers-1:before {
+    content: map-get($flaticon_hotel_2-map, "lockers-1");
+}
+.flaticon-school-locker:before {
+    content: map-get($flaticon_hotel_2-map, "school-locker");
+}
+.flaticon-changing-room-1:before {
+    content: map-get($flaticon_hotel_2-map, "changing-room-1");
+}
+.flaticon-basketball-court:before {
+    content: map-get($flaticon_hotel_2-map, "basketball-court");
+}
+.flaticon-basketball:before {
+    content: map-get($flaticon_hotel_2-map, "basketball");
+}
+.flaticon-ring:before {
+    content: map-get($flaticon_hotel_2-map, "ring");
+}
+.flaticon-basketball-court-1:before {
+    content: map-get($flaticon_hotel_2-map, "basketball-court-1");
+}
+.flaticon-basketball-1:before {
+    content: map-get($flaticon_hotel_2-map, "basketball-1");
+}
+.flaticon-basketball-2:before {
+    content: map-get($flaticon_hotel_2-map, "basketball-2");
+}
+.flaticon-basketball-hoop:before {
+    content: map-get($flaticon_hotel_2-map, "basketball-hoop");
+}
+.flaticon-basketball-3:before {
+    content: map-get($flaticon_hotel_2-map, "basketball-3");
+}
+.flaticon-basketball-court-2:before {
+    content: map-get($flaticon_hotel_2-map, "basketball-court-2");
+}
+.flaticon-basketball-court-3:before {
+    content: map-get($flaticon_hotel_2-map, "basketball-court-3");
+}
+.flaticon-billiards:before {
+    content: map-get($flaticon_hotel_2-map, "billiards");
+}
+.flaticon-billiards-1:before {
+    content: map-get($flaticon_hotel_2-map, "billiards-1");
+}
+.flaticon-snooker:before {
+    content: map-get($flaticon_hotel_2-map, "snooker");
+}
+.flaticon-pool-table:before {
+    content: map-get($flaticon_hotel_2-map, "pool-table");
+}
+.flaticon-snooker-1:before {
+    content: map-get($flaticon_hotel_2-map, "snooker-1");
+}
+.flaticon-billiards-2:before {
+    content: map-get($flaticon_hotel_2-map, "billiards-2");
+}
+.flaticon-pool-ball:before {
+    content: map-get($flaticon_hotel_2-map, "pool-ball");
+}
+.flaticon-tennis:before {
+    content: map-get($flaticon_hotel_2-map, "tennis");
+}
+.flaticon-table-tennis:before {
+    content: map-get($flaticon_hotel_2-map, "table-tennis");
+}
+.flaticon-table:before {
+    content: map-get($flaticon_hotel_2-map, "table");
+}
+.flaticon-ping-pong:before {
+    content: map-get($flaticon_hotel_2-map, "ping-pong");
+}
+.flaticon-ping-pong-1:before {
+    content: map-get($flaticon_hotel_2-map, "ping-pong-1");
+}
+.flaticon-table-tennis-1:before {
+    content: map-get($flaticon_hotel_2-map, "table-tennis-1");
+}
+.flaticon-tennis-court:before {
+    content: map-get($flaticon_hotel_2-map, "tennis-court");
+}
+.flaticon-tennis-1:before {
+    content: map-get($flaticon_hotel_2-map, "tennis-1");
+}
+.flaticon-tennis-2:before {
+    content: map-get($flaticon_hotel_2-map, "tennis-2");
+}
+.flaticon-tennis-3:before {
+    content: map-get($flaticon_hotel_2-map, "tennis-3");
+}
+.flaticon-net:before {
+    content: map-get($flaticon_hotel_2-map, "net");
+}
+.flaticon-badminton:before {
+    content: map-get($flaticon_hotel_2-map, "badminton");
+}
+.flaticon-shuttlecock:before {
+    content: map-get($flaticon_hotel_2-map, "shuttlecock");
+}
+.flaticon-badminton-court:before {
+    content: map-get($flaticon_hotel_2-map, "badminton-court");
+}
+.flaticon-badminton-shuttle:before {
+    content: map-get($flaticon_hotel_2-map, "badminton-shuttle");
+}
+.flaticon-poker-cards:before {
+    content: map-get($flaticon_hotel_2-map, "poker-cards");
+}
+.flaticon-poker-card:before {
+    content: map-get($flaticon_hotel_2-map, "poker-card");
+}
+.flaticon-poker-table:before {
+    content: map-get($flaticon_hotel_2-map, "poker-table");
+}
+.flaticon-poker-cards-1:before {
+    content: map-get($flaticon_hotel_2-map, "poker-cards-1");
+}
+.flaticon-card-game:before {
+    content: map-get($flaticon_hotel_2-map, "card-game");
+}
+.flaticon-smoking-room:before {
+    content: map-get($flaticon_hotel_2-map, "smoking-room");
+}
+.flaticon-cigar:before {
+    content: map-get($flaticon_hotel_2-map, "cigar");
+}
+.flaticon-tobacco:before {
+    content: map-get($flaticon_hotel_2-map, "tobacco");
+}
+.flaticon-no-smoking:before {
+    content: map-get($flaticon_hotel_2-map, "no-smoking");
+}
+.flaticon-pet:before {
+    content: map-get($flaticon_hotel_2-map, "pet");
+}
+.flaticon-animal:before {
+    content: map-get($flaticon_hotel_2-map, "animal");
+}
+.flaticon-bff:before {
+    content: map-get($flaticon_hotel_2-map, "bff");
+}
+.flaticon-tent:before {
+    content: map-get($flaticon_hotel_2-map, "tent");
+}
+.flaticon-tent-1:before {
+    content: map-get($flaticon_hotel_2-map, "tent-1");
+}
+.flaticon-circus:before {
+    content: map-get($flaticon_hotel_2-map, "circus");
+}
+.flaticon-tent-2:before {
+    content: map-get($flaticon_hotel_2-map, "tent-2");
+}
+.flaticon-tent-3:before {
+    content: map-get($flaticon_hotel_2-map, "tent-3");
+}
+.flaticon-tent-4:before {
+    content: map-get($flaticon_hotel_2-map, "tent-4");
+}
+.flaticon-tent-5:before {
+    content: map-get($flaticon_hotel_2-map, "tent-5");
+}
+.flaticon-tent-6:before {
+    content: map-get($flaticon_hotel_2-map, "tent-6");
+}
+.flaticon-tent-7:before {
+    content: map-get($flaticon_hotel_2-map, "tent-7");
+}

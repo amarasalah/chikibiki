@@ -1,0 +1,147 @@
+#loftocean-room-extra-service-form {
+    margin-top: 12px;
+}
+
+#loftocean-room-extra-service-form .loftocean-room-extra-service-item {
+    position: relative;
+    min-width: 255px;
+    max-width: 600px;
+    border: 1px solid #c3c4c7;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+#loftocean-room-extra-service-form .loftocean-room-extra-service-item h3 {
+    border-bottom: 1px solid #c3c4c7;
+    padding: 15px 90px 15px 20px;
+    margin: 0;
+    cursor: move;
+}
+
+.rtl #loftocean-room-extra-service-form .loftocean-room-extra-service-item h3 {
+    padding: 15px 20px 15px 90px;
+}
+
+#loftocean-room-extra-service-form .loftocean-room-extra-service-item a.loftocean-room-extra-service-item-remove {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+
+.rtl #loftocean-room-extra-service-form .loftocean-room-extra-service-item a.loftocean-room-extra-service-item-remove {
+    right: auto;
+    left: 20px;
+}
+
+#loftocean-room-extra-service-form .loftocean-room-extra-service-item .loftocean-room-extra-service-controls-wrapper {
+    padding: 20px 0;
+}
+
+#loftocean-room-extra-service-form .loftocean-room-extra-service-item .control-wrapper {
+    position: relative;
+    padding: 6px 20px 6px 192px !important;
+}
+
+.rtl #loftocean-room-extra-service-form .loftocean-room-extra-service-item .control-wrapper {
+    padding: 6px 192px 6px 20px !important;
+}
+
+#loftocean-room-extra-service-form .loftocean-room-extra-service-item .control-wrapper label {
+    position: absolute;
+    width: 170px;
+    top: 10px;
+    left: 20px;
+    font-size: 12px;
+}
+
+.rtl #loftocean-room-extra-service-form .loftocean-room-extra-service-item .control-wrapper label {
+    right: 20px;
+    left: auto;
+}
+
+.loftocean-room-extra-service-item .multi-items-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6px;
+}
+
+.loftocean-room-extra-service-item .multi-items-wrapper + .multi-items-wrapper {
+    margin-top: 12px;
+}
+
+.loftocean-room-extra-service-item .loftocean-room-value-with-inline-unit {
+    position: relative;
+    width: 100%;
+}
+
+.loftocean-room-extra-service-item .loftocean-room-value-with-inline-unit .price-unit {
+    position: absolute;
+    right: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.rtl .loftocean-room-extra-service-item .loftocean-room-value-with-inline-unit .price-unit {
+    right: auto;
+    left: 50px;
+}
+
+.loftocean-room-extra-service-item .item-description {
+    margin-top: 8px;
+    font-size: 12px;
+}
+
+.loftocean-room-extra-service-item hr {
+    margin: 10px 20px;
+    width: calc(100% - 40px);
+    height: 1px;
+    background: none;
+    border: none;
+    border-top: 1px dashed #e6e6e6;
+}
+
+.loftocean-room-extra-service-item .fullwidth {
+    width: 100%;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 620px) {
+    .loftocean-room-extra-service-item .multi-items-wrapper input {
+        width: 100%;
+    }
+
+    .loftocean-room-extra-service-item .loftocean-room-value-with-inline-unit .price-unit {
+        right: 30px;
+    }
+
+    .rtl .loftocean-room-extra-service-item .loftocean-room-value-with-inline-unit .price-unit {
+        right: auto;
+        left: 30px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #loftocean-room-extra-service-form .loftocean-room-extra-service-item .control-wrapper {
+        padding-left: 20px !important;
+    }
+
+    .rtl #loftocean-room-extra-service-form .loftocean-room-extra-service-item .control-wrapper {
+        padding-right: 20px !important;
+    }
+
+    #loftocean-room-extra-service-form .loftocean-room-extra-service-item .control-wrapper label {
+        position: relative;
+        top: auto;
+        left: auto;
+        display: block;
+        margin-bottom: 6px;
+        width: 100%;
+    }
+
+    .rtl #loftocean-room-extra-service-form .loftocean-room-extra-service-item .control-wrapper label {
+        right: auto;
+    }
+}

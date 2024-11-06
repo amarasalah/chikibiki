@@ -1,0 +1,55 @@
+.food-menu {
+  background-color: #f9f9f9;
+  padding: 80px 0;
+}
+
+.product-item {
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.product-item .sale {
+  color: #fff;
+  background: #ff4b5c;
+  padding: 5px 10px;
+  border-radius: 4px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 14px;
+}
+
+.product-thumb img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.food-info .price {
+  font-size: 18px;
+  color: #333;
+}
+
+.swiper-container {
+  margin-top: 20px;
+}
+
+.dl-slider-controls .dl-slider-button-next,
+.dl-slider-controls .dl-slider-button-prev {
+  font-size: 20px;
+  color: #333;
+  cursor: pointer;
+}
+
+.carousel-preloader .dot-flashing {
+  display: inline-block;
+  position: relative;
+  width: 16px;
+  height: 16px;
+  background-color: #333;
+  border-radius: 50%;
+  animation: dotFlashing 1.5s infinite ease-in-out;
+}

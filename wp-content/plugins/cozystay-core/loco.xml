@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bundle name="CozyStay Core">
+  <domain name="loftocean">
+    <project>
+      <target>
+        <directory>languages</directory>
+      </target>
+      <template>
+        <file>languages/cozystay-core.pot</file>
+      </template>
+    </project>
+  </domain>
+</bundle>

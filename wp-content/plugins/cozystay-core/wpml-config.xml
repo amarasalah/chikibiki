@@ -1,0 +1,14 @@
+<wpml-config>
+	<custom-term-fields>
+		<custom-term-field action="copy">facility_type</custom-term-field>
+		<custom-term-field action="copy">priority</custom-term-field>
+		<custom-term-field action="copy">method</custom-term-field>
+		<custom-term-field action="copy">auto_method</custom-term-field>
+		<custom-term-field action="copy">effective_time</custom-term-field>
+		<custom-term-field action="copy">custom_effective_time_slots</custom-term-field>
+	</custom-term-fields>
+
+	<admin-texts>
+		<key name="loftocean_guest_use_plural_label_when_zero" />
+	</admin-texts>
+</wpml-config>
